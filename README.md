@@ -1,4 +1,4 @@
-# to execute/run application
+# Quick Start
 
     cd /<directory>
 
