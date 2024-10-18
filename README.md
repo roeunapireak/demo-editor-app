@@ -5,12 +5,14 @@
     git clone https://github.com/roeunapireak/demo-editor-app.git
 
     
-for Linux or Window:
+## For Linux or Window:
+    
     ./demo_venv/bin/active
 
     python main.py
 
-for Mac:
+## For Mac:
+    
     source demo_venv/bin/active
 
     python main.py
