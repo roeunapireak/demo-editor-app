@@ -5,13 +5,12 @@ from spriteClass import GameSprite, Player
 ''' colors '''
 background = (200, 255, 255)
 
-window = display.set_mode((700, 500))
+window = display.set_mode((700, 500)) # widht, height
 window.fill(background)
 
 clock = time.Clock()
 
-''' creating objects '''
-platform_left = Player(player_image='img/platform.png', player_x=5, player_y=200, player_speed=4, wight=150, height=150) 
+platform_left = Player(player_image='img/platform.png', player_x=5, player_y=200, player_speed=4, wight=150, height=150)
 platform_right = Player(player_image='img/platform.png', player_x=535, player_y=200, player_speed=4, wight=150, height=150)
 ball = GameSprite(player_image='img/tenis_ball.png', player_x=200, player_y=200, player_speed=4, wight=50, height=50)
 
@@ -30,4 +29,4 @@ while game:
     ball.reset(window_object=window)
 
     display.update()
-    clock.tick(60)
+    clock.tick(60) # 60 frame per second
