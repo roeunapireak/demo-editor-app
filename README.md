@@ -1,2 +1,13 @@
-# demo-editor-app
-this is demo of work with git and github repository.
+# Quick Start
+
+    cd /<directory>
+
+    git clone https://github.com/roeunapireak/demo-editor-app.git
+
+
+## For Mac:
+    
+    source demo_venv/bin/active
+
+    python main.py
+
